@@ -25,3 +25,40 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Solution - Layout*/
+
+ul {
+  list-style: none;
+  padding: 0; margin: 0;
+  padding: 8px;
+}
+
+li { display: inline-block; }
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content { text-align: center; }
+
+/* Solution - Aesthetics */
+
+a {
+  text-decoration: none;
+  padding: 8px;
+  color: #555;
+}
+
+.footer { background-color: #eee; }
+
+button {
+  padding: 8px 16px;
+}
